@@ -7,7 +7,7 @@
 
         setInterval(async() => {
             let t = await(await fetch('./api/lastBuild')).text()
-            if(t != start)window.location.reload()
+            if(t != start&&t!="building")window.location.reload()
         },200)
     }catch(err){
         console.warn(err+" Taking assumption that the website is being hosted statically.")

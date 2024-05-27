@@ -1,3 +1,5 @@
+const build = require("./build.js")
+
 const path = require("path")
 const fs = require('fs')
 const express = require('express')
@@ -6,18 +8,16 @@ const app = express()
 const port = 3000
 
 const generatedPath = path.resolve("./generated")
-const appPath = path.resolve("./app")
 
-const buildTime = Date.now().toString()
+let buildTime = "building"
 app.get("/api/lastBuild",(req,res)=>{
-    res.status(200)
-    res.send(buildTime)
+  res.status(200)
+  res.send(buildTime)
 })
 
-console.log("building website")
-if(fs.existsSync(generatedPath))fs.rmSync(generatedPath,{recursive:true})
-fs.cpSync(appPath, generatedPath, {recursive: true});
-console.log("done building website")
+build.buildSite()
+buildTime = Date.now().toString()
+
 
 app.use(express.static(path.resolve("./generated")))
 

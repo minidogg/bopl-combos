@@ -21,7 +21,7 @@ body{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 0px;
-    grid-auto-rows: 30%;
+    grid-auto-rows: 35%;
 
     margin:auto;
     margin-top:5vh;
@@ -46,6 +46,7 @@ body{
     background-color: rgba(0,0,0,0.5);
 
     width:50%;
+    padding:10px;
     /* height:fit-content; */
 
     margin:10px;
@@ -58,4 +59,10 @@ body{
 }
 .ability{
     width:100%;
+}
+
+.score{
+    color:lime;
+    font: size 1.5vmin;
+    text-align: center;
 }
