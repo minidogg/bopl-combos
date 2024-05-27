@@ -1,0 +1,61 @@
+body{
+    background-color: blue;
+    background:url("img/Sky3Clean2-min.png") no-repeat center center fixed;
+    background-size: cover;
+
+    margin:0;
+}
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: rgba(0,0,0,0.5);
+
+    max-width:800px;
+    width:80vw;
+    height:80vh;
+    padding:25px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+    grid-auto-rows: 30%;
+
+    margin:auto;
+    margin-top:5vh;
+    
+    border-radius: 2vmin;
+
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 825px) {
+    .container{
+        width:100vw;
+        height:100vh;
+        border-radius: 0;
+        margin-top: 0;
+        padding:0;
+    }
+}
+
+
+.combo{
+    background-color: rgba(0,0,0,0.5);
+
+    width:50%;
+    /* height:fit-content; */
+
+    margin:10px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 2vmin;
+}
+.ability{
+    width:100%;
+}
