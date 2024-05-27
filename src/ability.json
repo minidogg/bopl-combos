@@ -2,7 +2,9 @@
     "beam": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "smoke"
+        ],
         "counters": [],
         "types": [
             "offensive"
@@ -39,7 +41,10 @@
     "dash": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "rock",
+            "meteor"
+        ],
         "counters": [],
         "types": [
             "movement"
@@ -58,7 +63,9 @@
     "engine": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "smoke"
+        ],
         "counters": [],
         "types": [
             "movement"
@@ -67,7 +74,9 @@
     "grapple": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "rock"
+        ],
         "counters": [],
         "types": [
             "movement"
@@ -76,7 +85,9 @@
     "grenade": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "smoke"
+        ],
         "counters": [],
         "types": [
             "offensive"
@@ -85,7 +96,10 @@
     "growth ray": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "black hole",
+            "roll"
+        ],
         "counters": [],
         "types": [
             "none"
@@ -94,7 +108,10 @@
     "gust": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "bow",
+            "gust"
+        ],
         "counters": [],
         "types": [
             "defensive",
@@ -104,11 +121,14 @@
     "invisibility": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "roll"
+        ],
         "counters": [],
         "types": [
             "none"
-        ]
+        ],
+        "score": -0.15
     },
     "meteor": {
         "name": "time stop",
@@ -122,7 +142,9 @@
     "mine": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "smoke"
+        ],
         "counters": [],
         "types": [
             "defensive",
@@ -132,7 +154,9 @@
     "missile": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "smoke"
+        ],
         "counters": [],
         "types": [
             "offensive"
@@ -141,7 +165,9 @@
     "platform": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "roll"
+        ],
         "counters": [],
         "types": [
             "defensive",
@@ -152,8 +178,14 @@
     "push": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
-        "counters": [],
+        "helps": [
+            "roll",
+            "tesla coil",
+            "spike"
+        ],
+        "counters": [
+            "roll"
+        ],
         "types": [
             "defensive"
         ]
@@ -161,7 +193,9 @@
     "revival": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "roll"
+        ],
         "counters": [],
         "types": [
             "defensive"
@@ -189,8 +223,12 @@
     "shrink ray": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
-        "counters": [],
+        "helps": [
+            "push"
+        ],
+        "counters": [
+            "roll"
+        ],
         "types": [
             "none"
         ]
@@ -208,7 +246,9 @@
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
         "helps": [],
-        "counters": [],
+        "counters": [
+            "roll"
+        ],
         "types": [
             "defensive",
             "offensive"
@@ -217,7 +257,9 @@
     "teleport": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "mine"
+        ],
         "counters": [],
         "types": [
             "movement"
@@ -226,8 +268,12 @@
     "tesla coil": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
-        "counters": [],
+        "helps": [
+            "smoke"
+        ],
+        "counters": [
+            "roll"
+        ],
         "types": [
             "defensive"
         ]
@@ -239,7 +285,8 @@
         "counters": [],
         "types": [
             "offensive"
-        ]
+        ],
+        "score": -0.5
     },
     "time stop": {
         "name": "time stop",
@@ -247,7 +294,8 @@
         "helps": [],
         "counters": [],
         "types": [
-            "timestop"
-        ]
+            "none"
+        ],
+        "score": -0.25
     }
 }
