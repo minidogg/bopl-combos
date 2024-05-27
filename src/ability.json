@@ -98,7 +98,8 @@
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
         "helps": [
             "black hole",
-            "roll"
+            "roll",
+            "mine"
         ],
         "counters": [],
         "types": [
@@ -216,7 +217,6 @@
         "helps": [],
         "counters": [],
         "types": [
-            "movement",
             "offensive"
         ]
     },
