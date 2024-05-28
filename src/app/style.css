@@ -34,12 +34,10 @@ body{
 @media only screen and (max-width: 825px) {
     .container{
         width:calc(100vw - 20px);
-        height:calc(80vh - 10px);
+        height:calc(100vh - 10px);
         border-radius: 10px 10px 0 0;
         margin-top: 0;
         padding:10px;
-        position:absolute;
-        bottom:0;
     }
 }
 
