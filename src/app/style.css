@@ -14,14 +14,14 @@ body{
     background-color: rgba(0,0,0,0.5);
 
     max-width:800px;
-    width:80vw;
-    height:70vh;
+    width:calc(80vw - 100px);
+    height:calc(70vh - 2vw);
     padding:25px;
 
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 0px;
-    grid-auto-rows: 28vh;
+    grid-auto-rows: 30vh;
 
     margin:auto;
     margin-top:5vh;
@@ -33,11 +33,13 @@ body{
 
 @media only screen and (max-width: 825px) {
     .container{
-        width:100vw;
-        height:100vh;
-        border-radius: 0;
+        width:calc(100vw - 20px);
+        height:calc(80vh - 10px);
+        border-radius: 10px 10px 0 0;
         margin-top: 0;
-        padding:0;
+        padding:10px;
+        position:absolute;
+        bottom:0;
     }
 }
 
@@ -46,7 +48,7 @@ body{
     background-color: rgba(0,0,0,0.5);
 
     width:50%;
-    padding:10px;
+    padding:20px;
     /* height:fit-content; */
 
     margin:10px;
@@ -55,7 +57,7 @@ body{
     flex-direction: column;
     justify-content: center;
 
-    border-radius: 2vmin;
+    border-radius: 10px;
 }
 .ability{
     width:100%;

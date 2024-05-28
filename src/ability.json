@@ -23,7 +23,9 @@
     "blink gun": {
         "name": "time stop",
         "img": "C:\\Users\\hopeu\\OneDrive\\Documents\\GitHub\\bopl-combos\\src\\app\\img\\abilities\\time stop.png",
-        "helps": [],
+        "helps": [
+            "beam"
+        ],
         "counters": [],
         "types": [
             "none"
@@ -227,7 +229,9 @@
             "push"
         ],
         "counters": [
-            "roll"
+            "roll",
+            "beam",
+            "smoke"
         ],
         "types": [
             "none"
